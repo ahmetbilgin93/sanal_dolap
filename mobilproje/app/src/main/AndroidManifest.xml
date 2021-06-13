@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobilproje">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mobilproje">
+        <activity android:name=".EtkinlikListesi"></activity>
+        <activity android:name=".yeniEtkinlikActivity" />
+        <activity android:name=".KombinlerActivity" />
+        <activity android:name=".Kiy2Activity" />
+        <activity android:name=".Cek2Activity" />
+        <activity android:name=".CekmeceListesi" />
+        <activity android:name=".yeniKiyafetActivity" />
+        <activity android:name=".yeniCekmeceActivity" />
+        <activity android:name=".KabinActivity" />
+        <activity android:name=".EtkinliklerActivity" />
+        <activity android:name=".KiyafetlerActivity" />
+        <activity android:name=".CekmecelerActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.trendoceans.fileshare.MainActivity.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+    </application>
+
+</manifest>

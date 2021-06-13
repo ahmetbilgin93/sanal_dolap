@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/almendra_sc</item>
+        <item>@font/amita_bold</item>
+        <item>@font/catamaran_light</item>
+        <item>@font/laila_bold</item>
+        <item>@font/laila_light</item>
+        <item>@font/neucha</item>
+        <item>@font/yatra_one</item>
+    </array>
+</resources>

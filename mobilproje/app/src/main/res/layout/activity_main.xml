@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/cekmeceler"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:fontFamily="@font/laila_light"
+        android:text="Çekmecelerim"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainText" />
+
+    <Button
+        android:id="@+id/kabin"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:fontFamily="@font/laila_light"
+        android:text="Kabin"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etkinlikler" />
+
+    <Button
+        android:id="@+id/etkinlikler"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:fontFamily="@font/laila_light"
+        android:text="Etkinliklerim"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cekmeceler" />
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/laila_light"
+        android:text="SANAL DOLAP"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

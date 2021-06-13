@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "268145426452",
+    "project_id": "dolabim-4f6ba",
+    "storage_bucket": "dolabim-4f6ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268145426452:android:d2716a913ea53e321fe701",
+        "android_client_info": {
+          "package_name": "com.example.mobilproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268145426452-1s5cp5ul7lv859pt4gc8bk8qe6it9eae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIYRQkow4oQ_G1SCaZ5p_SqODiEB9lzyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268145426452-1s5cp5ul7lv859pt4gc8bk8qe6it9eae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
